@@ -18,11 +18,11 @@
 			</picture>
 		</span>
 
-		to your new<br />SvelteKit app
+		Turbomake
 	</h1>
 
 	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
+		<a href="https://turbomake.github.io">Create</a>
 	</h2>
 
 	<Counter />
