@@ -22,7 +22,10 @@
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 				<a href="/about">About</a>
 			</li>
-			<li aria-current={$page.url.pathname.startsWith('https://turbomake-merch.printify.me/') ? 'page' : undefined}>
+			<li aria-current={$page.url.pathname.startsWith('https://turbomake.github.io/') ? 'page' : undefined}>
+				<a href="https://turbomake.github.io/">Create</a>
+			</li>
+                        <li aria-current={$page.url.pathname.startsWith('https://turbomake-merch.printify.me/') ? 'page' : undefined}>
 				<a href="https://turbomake-merch.printify.me/">Merch</a>
 			</li>
 		</ul>
